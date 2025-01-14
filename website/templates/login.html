@@ -62,7 +62,11 @@
                     <div>
                       <a href="#" class="text-primary text-decoration-none">Forgot Password?</a>
                     </div>
-                  </div>                               
+                  </div>
+                  <!-- New login button added here -->
+                  <div class="form-group mb-3">
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -93,53 +97,5 @@ body {
   min-height: 500px;
 }
 
-.login-bg i, .login-bg h4, .login-bg p {
-  opacity: 0.9;
-}
-
-.input-group-text {
-  background-color: transparent;
-  border-right: none;
-}
-
-.form-control {
-  border-left: none;
-  box-shadow: none;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: #667eea;
-}
-
-.btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-  transition: transform 0.3s ease;
-}
-
-.btn-primary:hover {
-  transform: translateY(-3px);
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-}
-
-.custom-input {
-  height: 45px;
-  font-size: 14px;
-}
-
-.custom-input::placeholder {
-  font-size: 14px;
-  color: #999;
-}
-
-.input-group-text {
-  background-color: transparent;
-  border-right: none;
-  height: 45px;
-}
-
-</style>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+.login-bg i,
 {% endblock %}
